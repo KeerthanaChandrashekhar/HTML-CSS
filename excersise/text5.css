@@ -1,0 +1,17 @@
+.tahoma {
+  font-family: Tahoma;
+  font-weight: bold;
+}
+.Arial {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.sale{
+  color: red;
+  margin-top: 4px;
+  font-style: italic;
+  font-family: Arial;
+  font-size: 15px;
+}

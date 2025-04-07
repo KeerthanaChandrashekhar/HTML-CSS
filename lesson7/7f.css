@@ -1,0 +1,13 @@
+.button {
+  color: white;
+  background-color: rgb(12, 12, 202);
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: none;
+  border-radius: 30px;
+}
+p {
+  font-family: Arial;
+}

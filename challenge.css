@@ -1,0 +1,43 @@
+.link {
+  color: rgb(0,113,133);
+}
+.link:hover {
+  color: rgb(207, 135, 2);
+}
+.info {
+  font-weight: bold;
+  font-size: 23px;
+}
+.price {
+  color: rgb(0,118,0);
+  font-weight: bold;
+}
+.cart {
+  background-color: rgb(255,216,20);
+  height: 36px;
+  width: 130px;
+  border: none;
+  margin-right: 8px;
+  border-radius: 18px;
+  transition: background-color 0.15s, opacity 0.15s;
+}
+.cart:hover {
+  background-color: rgb(235, 196, 2);
+}
+.cart:active {
+  opacity: 0.4;
+}
+.buy {
+  background-color: rgb(255,164,28);
+  height: 36px;
+  width: 130px;
+  border: none;
+  border-radius: 18px;
+  transition: background-color 0.15s, opacity 0.15s ;
+}
+.buy:hover {
+  background-color: rgb(241, 147, 6);
+}
+.buy:active {
+  opacity: 0.4;
+}
