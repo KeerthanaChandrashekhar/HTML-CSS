@@ -28,6 +28,7 @@
       font-size: 12px;
       margin-bottom: 5px;
       margin-left: 12px;
+      display: inline-block;
     }
     .fri-button {
       background-color: blue;
@@ -43,44 +44,95 @@
       margin-left: 4px;
       margin-bottom: 10px;
     }
+    .desc-profile {
+      display: inline-block;
+      color: rgb(100, 100, 100);
+      vertical-align: middle;
+    }
+    .profile-pic {
+      height: 28px;
+      width: 28px;
+      border-radius: 50px;
+      object-fit: cover;
+      vertical-align: middle;
+      margin-right: 4px;
+    }
   </style>
 </head>
 <body>
   <div class="card">
-    <img class="cat-pic" src="cat.jpg">
-    <p class="name">
-      Oliver
-    </p>
-    <p class="desc">
-      2 mutual friends
-    </p>
-    <button class="fri-button">
-      Add friend
-    </button>
-  </div>
+    <div>
+      <img class="cat-pic" src="cat.jpg">
+    </div>
+    <div>
+      <div>
+        <p class="name">
+          Oliver
+        </p>
+      </div>
+      <div class="desc-profile">
+          <img class="profile-pic" src="cat.jpg">
+          <p class="desc">
+            2 mutual friends
+          </p>
+        
+      </div>
+      <div>
+        <button class="fri-button">
+          Add friend
+        </button>
+      </div>
+    </div>
+  </div> 
+
   <div class="card">
-    <img class="cat-pic" src="cat.jpg">
-    <p class="name">
-      Teddy
-    </p>
-    <p class="desc">
-      2 mutual friends
-    </p>
-    <button class="fri-button">
-      Add friend
-    </button>
+    <div>
+      <img class="cat-pic" src="cat.jpg">
+    </div>
+    <div>
+      <div>
+        <p class="name">
+          Mimi
+        </p>
+      </div>
+      <div class="desc-profile">
+          <img class="profile-pic" src="cat.jpg">
+          <p class="desc">
+            3 mutual friends
+          </p>
+        
+      </div>
+      <div>
+        <button class="fri-button">
+          Add friend
+        </button>
+      </div>
+    </div>
   </div>
+
   <div class="card">
-    <img class="cat-pic" src="cat.jpg">
-    <p class="name">
-      Oreo
-    </p>
-    <p class="desc">
-      2 mutual friends
-    </p>
-    <button class="fri-button">
-      Add friend
-    </button>
+    <div>
+      <img class="cat-pic" src="cat.jpg">
+    </div>
+    <div>
+      <div>
+        <p class="name">
+          Rex
+        </p>
+      </div>
+      <div class="desc-profile">
+          <img class="profile-pic" src="cat.jpg">
+          <p class="desc">
+            4 mutual friends
+          </p>
+        
+      </div>
+      <div>
+        <button class="fri-button">
+          Add friend
+        </button>
+      </div>
+    </div>
   </div>
 </body>
 </html>
