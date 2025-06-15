@@ -1,0 +1,43 @@
+div {
+  font-family: Arial;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: purple;
+  color: white;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.home {
+  font-weight: bold;
+}
+
+.search {
+  width: 500px;
+  border: none;
+  color: gray;
+  border-radius: 15px;
+  height: 30px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-left: 20px;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  border-width: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-color: white;
+  border-style: solid;
+  font-size: 16px;
+  
+}

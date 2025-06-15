@@ -1,0 +1,54 @@
+p {
+  font-family: Arial;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.picture {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  margin-right: 15px;
+  border-radius: 25px;
+}
+
+.info {
+  width: 200px;
+}
+
+.head {
+  margin-bottom: 3px;
+  font-weight: bold;
+
+}
+
+.content {
+  color: gray;
+  margin-bottom: 3px;
+}
+
+.last {
+  color: gray;
+  font-size: 14px;
+}
+
+.follow {
+  background-color: blue;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-family: Arial;
+  border-radius: 6px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-bottom: 4px;
+  padding-top: 4px;
+  cursor: pointer;
+}

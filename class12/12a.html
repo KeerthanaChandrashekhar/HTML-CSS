@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12a</title>
+    <style>
+      .flexing {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 20px;
+        justify-content: space-between;
+        border-width: 1px;
+        border-color: black;
+        border-style: solid;
+        align-items: center;
+        height: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="flexing">
+      <div style="background-color: lightblue;
+      width: 200px">200px</div>
+    <div style="background-color: lightpink;
+    width:75px;">75px</div>
+    </div>
+
+    <div class="flexing">
+      <div style="background-color: lightblue;
+      width: 200px">item1</div>
+      <div style="background-color: lightpink;
+      flex:1;">item2</div>
+      <div style="background-color: lightblue;
+      width: 200px">item3</div>
+    </div>
+
+    <div class="flexing">
+      <div style="background-color: lightpink;
+      width: 50px">item1</div>
+      <div style="background-color: lightpink;
+      width:50px;">item2</div>
+      <div style="background-color: lightpink;
+      width: 50px">item3</div>
+      <div style="background-color: lightpink;
+      width: 50px">item4</div>
+    </div>
+  </body>
+</html>
